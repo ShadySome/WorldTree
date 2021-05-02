@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3ad491d-1443-4daf-ac21-44fe3337a243" name="Default Changelist" comment="1.1">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/139091fe-aca4-4d85-b882-752b5f958d4d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/139091fe-aca4-4d85-b882-752b5f958d4d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/CommunityApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/advice/CustomizeExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/annotation/PassToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/annotation/UserLoginToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/CommentApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/FileApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/LikeApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/SsoApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/TalkApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/UserApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/api/VerifyApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/AppUserCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/HotTagCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/IpLimitCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/LoginUserCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/TagCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/TemporaryCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/cache/TinifyPngCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/constant/PageConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/AuthorizeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/CustomizeErrorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/DevelopController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/JumpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/LikeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/MailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/NewsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/NotificationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/PhoneController$LoginTokenVerifyDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/PhoneController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/ProfileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/PublishController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/QuestionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/SSOController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/ScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/TalkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/ValidateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/controller/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/AccessTokenDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/AuthResultDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/AuthServiceDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/AuthUserInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/BaiduAccessTokenDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/BaiduUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/CommentCreateDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/CommentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/CommentQueryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/FileDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/GithubUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/HotTagDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/LikeQueryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/NewsDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/NewsQueryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/NotificationDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/PaginationDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/QqAccessTokenDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/QqUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/QuestionDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/QuestionQueryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/ResultDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/TagDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/TalkDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/TalkQueryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/ThumbDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/TinifyPngDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/TwitterDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/UserQueryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/ValidateDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/WeiboAccessTokenDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/dto/WeiboUserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/AdPosEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/ColumnEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/CommentTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/LikeTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/NewsColumnEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/NotificationStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/NotificationTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/enums/SortEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/exception/CustomizeErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/exception/CustomizeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/exception/ICustomizeErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/interceptor/SessionInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/interceptor/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/AdMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/CommentExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/NewsExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/NewsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/NotificationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/QuestionExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/QuestionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/TalkExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/TalkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/ThumbExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/ThumbMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/UserAccountExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/UserAccountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/UserExtMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/UserInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/Ad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/AdExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/AdExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/AdExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/AdExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/CommentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/CommentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/CommentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/CommentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NewsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NewsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NewsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NewsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/Notification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NotificationExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NotificationExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NotificationExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/NotificationExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/QuestionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/QuestionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/QuestionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/QuestionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/Talk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/TalkExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/TalkExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/TalkExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/TalkExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/Thumb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/ThumbExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/ThumbExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/ThumbExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/ThumbExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserAccountExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserAccountExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserAccountExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserAccountExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserInfoExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserInfoExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserInfoExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/model/UserInfoExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/AliProvider$Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/AliProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/BaiduCloudProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/BaiduProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/GithubProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/JiGuangProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/QCloudProvider$ImageInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/QCloudProvider$Keywords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/QCloudProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/QqProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/TinifyProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/VaptchaProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/provider/WeiboProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/schedule/HotTagTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/schedule/LoginUserTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/schedule/NewsUpdateTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/schedule/TinifyPngTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/AdService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/LikeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/NotificationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/TalkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/UserAccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/UserInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/util/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/util/JavaMailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/util/TimeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/util/TokenUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/vo/CommentInsertVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/vo/TalkInsertVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/vo/TalkVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/niter/forum/vo/ThumbVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AdMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CommentExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NewsExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NewsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NotificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TalkExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TalkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ThumbExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ThumbMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserAccountExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserAccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserExtMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/niter.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/full.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/myeditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/mylay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/people-routes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/t-global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/vaptcha.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/wap2app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/K32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/N80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/avatar/news/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/baidu120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/baidu120c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/default-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/default-avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/fly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/gitee120c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/github120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/github120c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/home-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/boy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/clicklike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/error2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/found.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/girl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/publish.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/icon/weixin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/jiajing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/logo-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/medal/xunzhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/other/1437100018023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/other/appConfirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/other/appConfirming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/other/study-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/qq_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/qun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/ble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bln.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/blz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bm_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bmz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bn_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bnz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bo_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/boz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/douyin/bp7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/smile/tieba/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/tongbu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/wechat_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/weibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/weixin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/zhiding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/click.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/community.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/myeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/myeditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/pca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/plusShare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/talk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/vaptcha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/wangEditor3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/wangEditor3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/wap2app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/xss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/json/emoji.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont-2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont-3.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/font/iconfont2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/ckplayer/ckplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/ckplayer/ckplayer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/ckplayer/ckplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/ckplayer/ckplayer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/ckplayer/language.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/ckplayer/style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/face.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/index2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/jie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/pca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/sliderVerify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/t_index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mods/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/sider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/common/user-nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/home/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/home/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/news/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/other/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/other/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/p/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/p/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/p/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/t/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/t/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/activate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/appConfirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/forget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/sso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user/verification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/niter/forum/CommunityApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="niter: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="niter: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\NiterForum" />
+        <option value="F:\NiterForum\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r66ZuPkbuGexswV89sBD9hkVRR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitRepository" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="NiterForum" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.niter.forum.CommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:forum" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:forum" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@34d220bd" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3ad491d-1443-4daf-ac21-44fe3337a243" name="Default Changelist" comment="" />
+      <created>1618284250589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618284250589</updated>
+      <workItem from="1618284256762" duration="4685000" />
+      <workItem from="1618291257401" duration="743000" />
+      <workItem from="1618372330372" duration="595000" />
+      <workItem from="1618403182366" duration="2265000" />
+      <workItem from="1618630465740" duration="5667000" />
+      <workItem from="1618713086310" duration="4950000" />
+      <workItem from="1619252819795" duration="6866000" />
+      <workItem from="1619502410177" duration="6061000" />
+      <workItem from="1619579822890" duration="3059000" />
+      <workItem from="1619674177402" duration="8443000" />
+      <workItem from="1619762930658" duration="594000" />
+      <workItem from="1619837951325" duration="1876000" />
+      <workItem from="1619842320738" duration="2119000" />
+      <workItem from="1619937134750" duration="16846000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="359" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619264708826">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="359" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1619264708826" />
+    <state x="479" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1122@0.0.2048.1122" timestamp="1618286080518" />
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1618644404494">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618644404494" />
+    <state x="804" y="420" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619510086297">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="804" y="420" width="439" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1122@0.0.2048.1122" timestamp="1619510086297" />
+    <state x="262" y="7" key="CommitChangelistDialog2" timestamp="1619961860898">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="262" y="7" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1619961860898" />
+    <state x="549" y="158" key="FileChooserDialogImpl" timestamp="1619962324913">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1619962324913" />
+    <state x="633" y="308" width="272" height="218" key="Github.ShareDialog" timestamp="1619961705354">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="633" y="308" width="272" height="218" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1619961705354" />
+    <state x="424" y="119" key="Github.UntrackedFilesDialog" timestamp="1619960916684">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="119" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1619960916684" />
+    <state width="1493" height="113" key="GridCell.Tab.0.bottom" timestamp="1619947826209">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1619947826209" />
+    <state width="2005" height="432" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.0.center" timestamp="1619947826208">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1619947826208" />
+    <state width="2005" height="432" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.0.left" timestamp="1619947826208">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1619947826208" />
+    <state width="2005" height="432" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.0.right" timestamp="1619947826208">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1619947826208" />
+    <state width="2005" height="432" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.1.bottom" timestamp="1619947826210">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1619947826210" />
+    <state width="2005" height="432" key="GridCell.Tab.1.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.1.center" timestamp="1619947826209">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1619947826209" />
+    <state width="2005" height="432" key="GridCell.Tab.1.center/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.1.left" timestamp="1619947826209">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1619947826209" />
+    <state width="2005" height="432" key="GridCell.Tab.1.left/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="1493" height="113" key="GridCell.Tab.1.right" timestamp="1619947826209">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1619947826209" />
+    <state width="2005" height="432" key="GridCell.Tab.1.right/0.0.2048.1122@0.0.2048.1122" timestamp="1618306074169" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1619264779022">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1619264779022" />
+    <state x="379" y="101" key="SettingsEditor" timestamp="1619842248933">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="379" y="101" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1619842248933" />
+    <state x="505" y="136" key="SettingsEditor/0.0.2048.1122@0.0.2048.1122" timestamp="1618286139219" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1619961899133">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1619961899133" />
+    <state x="529" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1618630510777">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="529" y="286" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1618630510777" />
+    <state x="705" y="385" key="com.intellij.ide.util.TipDialog/0.0.2048.1122@0.0.2048.1122" timestamp="1618403266384" />
+    <state x="681" y="261" key="run.anything.popup" timestamp="1619508200488">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="681" y="261" key="run.anything.popup/0.0.2048.1122@0.0.2048.1122" timestamp="1619508200488" />
+    <state x="515" y="183" width="672" height="504" key="search.everywhere.popup" timestamp="1619957349814">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="515" y="183" width="672" height="504" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1619957349814" />
+    <state x="687" y="246" width="672" height="678" key="search.everywhere.popup/0.0.2048.1122@0.0.2048.1122" timestamp="1619682229457" />
+  </component>
+</project>
