@@ -1,0 +1,500 @@
+2021-05-02 14:33:08.729  INFO 8016 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 8016 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 14:33:08.741  INFO 8016 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 14:33:08.805  INFO 8016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 14:33:08.805  INFO 8016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 14:33:10.323  INFO 8016 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9612dac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 14:33:10.756  INFO 8016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 14:33:10.776  INFO 8016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 14:33:10.776  INFO 8016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 14:33:10.874  INFO 8016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 14:33:10.874  INFO 8016 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2068 ms
+2021-05-02 14:33:12.849  INFO 8016 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 14:33:13.021  INFO 8016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 14:33:13.094  INFO 8016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 14:33:13.553  INFO 8016 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 14:33:13.689  INFO 8016 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 14:33:15.929  INFO 8016 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 14:33:15.949  INFO 8016 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 14:33:16.001  INFO 8016 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 14:33:16.188  INFO 8016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 14:33:16.197  INFO 8016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 14:33:16.202  INFO 8016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 14:33:16.209  INFO 8016 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 14:33:16.242  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 14:33:16 CST 2021
+2021-05-02 14:33:16.278  INFO 8016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 14:33:16.282  INFO 8016 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 7.973 seconds (JVM running for 9.236)
+2021-05-02 14:33:16.291  WARN 8016 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 14:33:16.292  INFO 8016 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 14:33:16.896  INFO 8016 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 14:33:17.083  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 14:33:17 CST 2021
+2021-05-02 14:33:17.083  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 14:33:17 CST 2021
+2021-05-02 14:33:17.189  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 14:33:17 CST 2021
+2021-05-02 14:43:16.257  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 14:43:16 CST 2021
+2021-05-02 14:43:16.260  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 14:43:16 CST 2021
+2021-05-02 14:46:56.024  INFO 8016 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 14:46:56.024  INFO 8016 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 14:46:56.037  INFO 8016 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-05-02 14:47:00.671  WARN 8016 --- [http-nio-80-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [cn.niter.forum.exception.CustomizeException: 当前操作需要登录，请登录后重试]
+2021-05-02 14:49:39.665  WARN 8016 --- [http-nio-80-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [cn.niter.forum.exception.CustomizeException: 当前操作需要登录，请登录后重试]
+2021-05-02 14:53:16.248  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 14:53:16 CST 2021
+2021-05-02 14:53:16.256  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 14:53:16 CST 2021
+2021-05-02 15:03:16.251  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 15:03:16 CST 2021
+2021-05-02 15:03:16.261  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 15:03:16 CST 2021
+2021-05-02 15:07:00.014  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.NewsUpdateTasks  : updateTiyuNewsSchedule start Sun May 02 15:07:00 CST 2021
+2021-05-02 15:07:00.566  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.NewsUpdateTasks  : updateTiyuNewsSchedule stop Sun May 02 15:07:00 CST 2021
+2021-05-02 15:13:16.256  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 15:13:16 CST 2021
+2021-05-02 15:13:16.263  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 15:13:16 CST 2021
+2021-05-02 15:23:16.257  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 15:23:16 CST 2021
+2021-05-02 15:23:16.263  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 15:23:16 CST 2021
+2021-05-02 15:28:59.786  WARN 8016 --- [http-nio-80-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2021-05-02 15:30:05.442 ERROR 8016 --- [http-nio-80-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-80-exec-4] Exception processing template "home/index": An error happened during template parsing (template: "class path resource [templates/home/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/home/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_77]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+Caused by: org.attoparser.ParseException: Error resolving fragment: "~{'common/footer' :: home-foot}": template or fragment could not be resolved (template: "home/index" - line 25, col 23)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving fragment: "~{'common/footer' :: home-foot}": template or fragment could not be resolved (template: "home/index" - line 25, col 23)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:619) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:399) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 54 common frames omitted
+
+2021-05-02 15:30:05.445 ERROR 8016 --- [http-nio-80-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/home/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving fragment: "~{'common/footer' :: home-foot}": template or fragment could not be resolved (template: "home/index" - line 25, col 23)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:619) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:399) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_77]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2021-05-02 15:33:16.258  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 15:33:16 CST 2021
+2021-05-02 15:33:16.260  INFO 8016 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 15:33:16 CST 2021
+2021-05-02 15:38:11.748  INFO 15148 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 15148 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 15:38:11.751  INFO 15148 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 15:38:11.796  INFO 15148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 15:38:11.796  INFO 15148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 15:38:14.890  INFO 15148 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0a822c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 15:38:15.405  INFO 15148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 15:38:15.429  INFO 15148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 15:38:15.429  INFO 15148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 15:38:15.540  INFO 15148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 15:38:15.540  INFO 15148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3744 ms
+2021-05-02 15:38:17.031  INFO 15148 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 15:38:17.153  INFO 15148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 15:38:17.215  INFO 15148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 15:38:17.318  INFO 15148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 15:38:17.404  INFO 15148 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 15:38:17.503  INFO 15148 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 15:38:17.533  INFO 15148 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 15:38:17.581  INFO 15148 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 15:38:17.752  INFO 15148 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 15:38:17.760  INFO 15148 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 15:38:17.767  INFO 15148 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 15:38:17.774  INFO 15148 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 15:38:17.798  INFO 15148 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 15:38:17 CST 2021
+2021-05-02 15:38:17.827  INFO 15148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 15:38:17.836  INFO 15148 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 6.51 seconds (JVM running for 7.886)
+2021-05-02 15:38:17.841  WARN 15148 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 15:38:17.841  INFO 15148 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 15:38:18.004  INFO 15148 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 15:38:18.034  INFO 15148 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 15:38:18 CST 2021
+2021-05-02 15:38:18.034  INFO 15148 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 15:38:18 CST 2021
+2021-05-02 15:38:18.036  INFO 15148 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 15:38:18 CST 2021
+2021-05-02 15:39:55.576  INFO 15148 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 15:39:55.576  INFO 15148 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 15:39:55.582  INFO 15148 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-05-02 16:14:55.627  INFO 10596 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 10596 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 16:14:55.644  INFO 10596 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 16:14:55.696  INFO 10596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 16:14:55.697  INFO 10596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 16:14:58.658  INFO 10596 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7b2698] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 16:14:59.212  INFO 10596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 16:14:59.236  INFO 10596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 16:14:59.236  INFO 10596 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 16:14:59.353  INFO 10596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 16:14:59.353  INFO 10596 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3656 ms
+2021-05-02 16:15:00.757  INFO 10596 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 16:15:00.860  INFO 10596 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 16:15:00.916  INFO 10596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 16:15:01.026  INFO 10596 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 16:15:01.096  INFO 10596 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 16:15:01.195  INFO 10596 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 16:15:01.217  INFO 10596 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 16:15:01.258  INFO 10596 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 16:15:01.400  INFO 10596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 16:15:01.407  INFO 10596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 16:15:01.413  INFO 10596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 16:15:01.419  INFO 10596 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 16:15:01.443  INFO 10596 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 16:15:01 CST 2021
+2021-05-02 16:15:01.472  INFO 10596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 16:15:01.476  INFO 10596 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 6.39 seconds (JVM running for 7.958)
+2021-05-02 16:15:01.483  WARN 10596 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 16:15:01.483  INFO 10596 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 16:15:01.666  INFO 10596 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 16:15:01.739  INFO 10596 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 16:15:01 CST 2021
+2021-05-02 16:15:01.740  INFO 10596 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 16:15:01 CST 2021
+2021-05-02 16:15:01.744  INFO 10596 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 16:15:01 CST 2021
+2021-05-02 16:15:52.260  INFO 10596 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 16:15:52.261  INFO 10596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 16:15:52.275  INFO 10596 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-05-02 16:33:58.709  INFO 20160 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 20160 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 16:33:58.711  INFO 20160 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 16:33:58.762  INFO 20160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 16:33:58.763  INFO 20160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 16:34:00.460  INFO 20160 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4fc66183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 16:34:01.053  INFO 20160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 16:34:01.089  INFO 20160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 16:34:01.090  INFO 20160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 16:34:01.224  INFO 20160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 16:34:01.225  INFO 20160 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2462 ms
+2021-05-02 16:34:02.948  INFO 20160 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 16:34:03.131  INFO 20160 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 16:34:03.258  INFO 20160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 16:34:03.687  INFO 20160 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 16:34:03.894  INFO 20160 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 16:34:04.053  INFO 20160 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 16:34:04.091  INFO 20160 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 16:34:04.174  INFO 20160 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 16:34:04.545  INFO 20160 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 16:34:04.596  INFO 20160 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 16:34:04.655  INFO 20160 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 16:34:04.726  INFO 20160 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 16:34:04.869  INFO 20160 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 16:34:04 CST 2021
+2021-05-02 16:34:04.988  INFO 20160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 16:34:05.002  INFO 20160 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 6.768 seconds (JVM running for 8.283)
+2021-05-02 16:34:05.014  WARN 20160 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 16:34:05.015  INFO 20160 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 16:34:05.369  INFO 20160 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 16:34:05.482  INFO 20160 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 16:34:05 CST 2021
+2021-05-02 16:34:05.483  INFO 20160 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 16:34:05 CST 2021
+2021-05-02 16:34:05.487  INFO 20160 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 16:34:05 CST 2021
+2021-05-02 16:44:04.884  INFO 20160 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 16:44:04 CST 2021
+2021-05-02 16:44:04.889  INFO 20160 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 16:44:04 CST 2021
+2021-05-02 16:45:55.548  INFO 19272 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 19272 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 16:45:55.550  INFO 19272 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 16:45:55.591  INFO 19272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 16:45:55.591  INFO 19272 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 16:45:56.912  INFO 19272 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7cc8a61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 16:45:57.333  INFO 19272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 16:45:57.353  INFO 19272 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 16:45:57.353  INFO 19272 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 16:45:57.460  INFO 19272 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 16:45:57.460  INFO 19272 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1869 ms
+2021-05-02 16:45:58.387  INFO 19272 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 16:45:58.483  INFO 19272 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 16:45:58.527  INFO 19272 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 16:45:58.616  INFO 19272 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 16:45:58.683  INFO 19272 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 16:45:58.795  INFO 19272 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 16:45:58.821  INFO 19272 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 16:45:58.862  INFO 19272 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 16:45:59.027  INFO 19272 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 16:45:59.037  INFO 19272 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 16:45:59.043  INFO 19272 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 16:45:59.051  INFO 19272 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 16:45:59.071  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 16:45:59 CST 2021
+2021-05-02 16:45:59.114  INFO 19272 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 16:45:59.118  WARN 19272 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 16:45:59.118  INFO 19272 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 3.98 seconds (JVM running for 5.11)
+2021-05-02 16:45:59.118  INFO 19272 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 16:45:59.276  INFO 19272 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 16:45:59.308  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 16:45:59 CST 2021
+2021-05-02 16:45:59.308  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 16:45:59 CST 2021
+2021-05-02 16:45:59.311  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 16:45:59 CST 2021
+2021-05-02 16:46:31.003  INFO 19272 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 16:46:31.003  INFO 19272 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 16:46:31.020  INFO 19272 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2021-05-02 16:55:59.080  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 16:55:59 CST 2021
+2021-05-02 16:55:59.091  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 16:55:59 CST 2021
+2021-05-02 17:05:59.074  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:05:59 CST 2021
+2021-05-02 17:05:59.078  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:05:59 CST 2021
+2021-05-02 17:15:59.080  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:15:59 CST 2021
+2021-05-02 17:15:59.089  INFO 19272 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:15:59 CST 2021
+2021-05-02 17:19:03.809  WARN 19272 --- [http-nio-80-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2021-05-02 17:19:35.219  WARN 19272 --- [http-nio-80-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2021-05-02 17:22:16.311  INFO 7804 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 7804 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 17:22:16.313  INFO 7804 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 17:22:16.360  INFO 7804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 17:22:16.360  INFO 7804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 17:22:19.230  INFO 7804 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$efd7e552] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 17:22:19.751  INFO 7804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 17:22:19.776  INFO 7804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 17:22:19.777  INFO 7804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 17:22:19.908  INFO 7804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 17:22:19.909  INFO 7804 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3549 ms
+2021-05-02 17:22:21.275  INFO 7804 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 17:22:21.381  INFO 7804 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 17:22:21.432  INFO 7804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 17:22:21.529  INFO 7804 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 17:22:21.615  INFO 7804 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 17:22:21.702  INFO 7804 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 17:22:21.730  INFO 7804 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 17:22:21.783  INFO 7804 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 17:22:21.949  INFO 7804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 17:22:21.957  INFO 7804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 17:22:21.965  INFO 7804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 17:22:21.972  INFO 7804 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 17:22:21.997  INFO 7804 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 17:22:21 CST 2021
+2021-05-02 17:22:22.026  INFO 7804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 17:22:22.030  INFO 7804 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 6.135 seconds (JVM running for 7.511)
+2021-05-02 17:22:22.037  WARN 7804 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 17:22:22.037  INFO 7804 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 17:22:22.182  INFO 7804 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 17:22:22.214  INFO 7804 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 17:22:22 CST 2021
+2021-05-02 17:22:22.214  INFO 7804 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:22:22 CST 2021
+2021-05-02 17:22:22.215  INFO 7804 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:22:22 CST 2021
+2021-05-02 17:23:40.484  INFO 7804 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 17:23:40.484  INFO 7804 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 17:23:40.490  INFO 7804 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-05-02 17:24:20.680  INFO 9044 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 9044 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 17:24:20.683  INFO 9044 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 17:24:20.718  INFO 9044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 17:24:20.718  INFO 9044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 17:24:21.971  INFO 9044 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67ace44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 17:24:22.332  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 17:24:22.352  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 17:24:22.352  INFO 9044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 17:24:22.448  INFO 9044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 17:24:22.449  INFO 9044 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1731 ms
+2021-05-02 17:24:23.381  INFO 9044 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 17:24:23.476  INFO 9044 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 17:24:23.517  INFO 9044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 17:24:23.609  INFO 9044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 17:24:23.670  INFO 9044 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 17:24:23.756  INFO 9044 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 17:24:23.771  INFO 9044 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 17:24:23.806  INFO 9044 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 17:24:23.935  INFO 9044 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 17:24:23.942  INFO 9044 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 17:24:23.948  INFO 9044 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 17:24:23.954  INFO 9044 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 17:24:23.971  INFO 9044 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 17:24:23 CST 2021
+2021-05-02 17:24:23.998  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 17:24:24.001  INFO 9044 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 3.696 seconds (JVM running for 4.896)
+2021-05-02 17:24:24.004  WARN 9044 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 17:24:24.006  INFO 9044 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 17:24:24.182  INFO 9044 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 17:24:24.215  INFO 9044 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 17:24:24 CST 2021
+2021-05-02 17:24:24.215  INFO 9044 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:24:24 CST 2021
+2021-05-02 17:24:24.218  INFO 9044 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:24:24 CST 2021
+2021-05-02 17:24:49.294  INFO 9044 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 17:24:49.294  INFO 9044 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 17:24:49.301  INFO 9044 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2021-05-02 17:30:27.757  INFO 19432 --- [restartedMain] cn.niter.forum.CommunityApplication      : Starting CommunityApplication on DESKTOP-5MOSIUI with PID 19432 (F:\NiterForum\target\classes started by lst in F:\NiterForum)
+2021-05-02 17:30:27.759  INFO 19432 --- [restartedMain] cn.niter.forum.CommunityApplication      : No active profile set, falling back to default profiles: default
+2021-05-02 17:30:27.800  INFO 19432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-02 17:30:27.801  INFO 19432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-02 17:30:29.082  INFO 19432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6282a492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-02 17:30:29.452  INFO 19432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-05-02 17:30:29.470  INFO 19432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 17:30:29.471  INFO 19432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-05-02 17:30:29.567  INFO 19432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 17:30:29.568  INFO 19432 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1767 ms
+2021-05-02 17:30:30.499  INFO 19432 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-05-02 17:30:30.597  INFO 19432 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 17:30:30.641  INFO 19432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-02 17:30:30.731  INFO 19432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-05-02 17:30:30.800  INFO 19432 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-05-02 17:30:30.904  INFO 19432 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-02 17:30:30.919  INFO 19432 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-02 17:30:30.975  INFO 19432 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-02 17:30:31.159  INFO 19432 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-05-02 17:30:31.172  INFO 19432 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-05-02 17:30:31.179  INFO 19432 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-05-02 17:30:31.189  INFO 19432 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-05-02 17:30:31.212  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 17:30:31 CST 2021
+2021-05-02 17:30:31.245  INFO 19432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-05-02 17:30:31.249  WARN 19432 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-05-02 17:30:31.249  INFO 19432 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-02 17:30:31.250  INFO 19432 --- [restartedMain] cn.niter.forum.CommunityApplication      : Started CommunityApplication in 3.917 seconds (JVM running for 5.03)
+2021-05-02 17:30:31.428  INFO 19432 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-02 17:30:31.454  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 17:30:31 CST 2021
+2021-05-02 17:30:31.454  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:30:31 CST 2021
+2021-05-02 17:30:31.456  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:30:31 CST 2021
+2021-05-02 17:30:56.445  INFO 19432 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 17:30:56.445  INFO 19432 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 17:30:56.455  INFO 19432 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-05-02 17:40:31.213  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:40:31 CST 2021
+2021-05-02 17:40:31.300  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:40:31 CST 2021
+2021-05-02 17:50:31.226  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 17:50:31 CST 2021
+2021-05-02 17:50:31.232  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 17:50:31 CST 2021
+2021-05-02 18:00:31.219  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 18:00:31 CST 2021
+2021-05-02 18:00:31.221  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 18:00:31 CST 2021
+2021-05-02 18:02:00.005  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.NewsUpdateTasks  : updateGuoneiNewsSchedule start Sun May 02 18:02:00 CST 2021
+2021-05-02 18:02:00.308  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.NewsUpdateTasks  : updateGuoneiNewsSchedule stop Sun May 02 18:02:00 CST 2021
+2021-05-02 18:10:31.215  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 18:10:31 CST 2021
+2021-05-02 18:10:31.218  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 18:10:31 CST 2021
+2021-05-02 18:20:31.216  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 18:20:31 CST 2021
+2021-05-02 18:20:31.301  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 18:20:31 CST 2021
+2021-05-02 18:30:31.217  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 18:30:31 CST 2021
+2021-05-02 18:30:31.220  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 18:30:31 CST 2021
+2021-05-02 18:40:31.221  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 18:40:31 CST 2021
+2021-05-02 18:40:31.227  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 18:40:31 CST 2021
+2021-05-02 18:50:31.214  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 18:50:31 CST 2021
+2021-05-02 18:50:31.218  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 18:50:31 CST 2021
+2021-05-02 19:00:31.222  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 19:00:31 CST 2021
+2021-05-02 19:00:31.227  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 19:00:31 CST 2021
+2021-05-02 19:10:31.219  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 19:10:31 CST 2021
+2021-05-02 19:10:31.224  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 19:10:31 CST 2021
+2021-05-02 19:20:31.226  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 19:20:31 CST 2021
+2021-05-02 19:20:31.230  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 19:20:31 CST 2021
+2021-05-02 19:30:31.225  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 19:30:31 CST 2021
+2021-05-02 19:30:31.229  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 19:30:31 CST 2021
+2021-05-02 19:40:31.226  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 19:40:31 CST 2021
+2021-05-02 19:40:31.230  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 19:40:31 CST 2021
+2021-05-02 19:50:31.216  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 19:50:31 CST 2021
+2021-05-02 19:50:31.223  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 19:50:31 CST 2021
+2021-05-02 20:00:31.214  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 20:00:31 CST 2021
+2021-05-02 20:00:31.270  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 20:00:31 CST 2021
+2021-05-02 20:06:00.007  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.NewsUpdateTasks  : updateShumaNewsSchedule start Sun May 02 20:06:00 CST 2021
+2021-05-02 20:06:00.177  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.NewsUpdateTasks  : updateShumaNewsSchedule stop Sun May 02 20:06:00 CST 2021
+2021-05-02 20:10:31.219  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 20:10:31 CST 2021
+2021-05-02 20:10:31.223  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 20:10:31 CST 2021
+2021-05-02 20:20:31.216  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 20:20:31 CST 2021
+2021-05-02 20:20:31.316  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 20:20:31 CST 2021
+2021-05-02 20:30:31.223  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule start Sun May 02 20:30:31 CST 2021
+2021-05-02 20:30:31.237  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.HotTagTasks      : hotTagSchedule stop Sun May 02 20:30:31 CST 2021
+2021-05-02 20:30:31.238  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 20:30:31 CST 2021
+2021-05-02 20:30:31.298  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 20:30:31 CST 2021
+2021-05-02 20:40:31.213  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 20:40:31 CST 2021
+2021-05-02 20:40:31.225  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 20:40:31 CST 2021
+2021-05-02 20:50:31.220  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 20:50:31 CST 2021
+2021-05-02 20:50:31.222  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 20:50:31 CST 2021
+2021-05-02 21:00:31.225  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun May 02 21:00:31 CST 2021
+2021-05-02 21:00:31.337  INFO 19432 --- [scheduling-1] cn.niter.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun May 02 21:00:31 CST 2021
